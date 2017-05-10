@@ -1,7 +1,7 @@
 module MegaLottoPs
   class Drawing
     def draw
-      5.times.map { single_draw }
+      6.times.map { single_draw }
     end
 
     private 
