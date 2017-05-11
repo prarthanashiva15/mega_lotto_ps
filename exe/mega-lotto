@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "mega_lotto_ps"
+require_relative "../lib/mega_lotto_ps/drawing"
+
+drawing = MegaLottoPs::Drawing.new.draw
+puts drawing

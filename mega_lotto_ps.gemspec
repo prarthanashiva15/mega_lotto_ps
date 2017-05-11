@@ -1,7 +1,9 @@
 # coding: utf-8
+#!/usr/bin/env ruby
+require_relative "../mega_lotto_ps/lib/mega_lotto_ps/drawing"
 lib = File.expand_path('../lib',__FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mega_lotto_ps/version'
+require 'mega_lotto_ps/version.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = "mega_lotto_ps"
